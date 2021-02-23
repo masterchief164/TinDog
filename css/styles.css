@@ -13,11 +13,13 @@ h1{
     line-height: 1.5;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 #iphone-mockup{
-    width: 60%;
+    width: 23%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 /*Navigation Bar*/
 .navbar{
@@ -44,6 +46,9 @@ h1{
     color:#ef8172;
     margin: 1rem;
 }
+.btn-outline-dark{
+    width: 100%;
+}
 .col-lg-4{
 
     margin: auto;
@@ -52,6 +57,8 @@ h1{
 }
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 .fas:hover{
     color: #ff4c68;
@@ -92,4 +99,12 @@ p{
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+
+}
+.pri-col{
+    padding: 3% 2%;
+    text-align: center;
 }
